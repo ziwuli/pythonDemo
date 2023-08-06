@@ -1,0 +1,28 @@
+# JetBrains IDE
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+*.log
+*.pot
+*.py[co]
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+venv/
+*.venv/
+env/
+ENV/
+
+# OS specific
+.DS_Store  # For Mac
+*.swp      # Vim temporary files
+*.swo      # Vim temporary files
+*.swn      # Vim temporary files
+Thumbs.db  # Windows thumbnail cache files
+Desktop.ini
