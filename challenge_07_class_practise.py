@@ -31,6 +31,9 @@ class Car:
     def braking(self):
         print(f"{self._color},{self._speed},{self._brand} car is braking")
 
+    def running(self):
+        print(f"{self._color},{self._speed},{self._brand} car is running")
+
 
 class SuperCar(Car):
 
@@ -42,6 +45,7 @@ if __name__ == '__main__':
     superCar = SuperCar("red", "WM", 150)
     superCar.color = "green"
     superCar.braking()
+    superCar.running()
     car = Car("red", "WM", 150)
     car.color = "blue"
     car.braking()
